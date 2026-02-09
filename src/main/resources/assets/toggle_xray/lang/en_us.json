@@ -1,0 +1,6 @@
+{
+  "key.toggle_xray.toggle": "Toggle X-Ray",
+  "category.toggle_xray": "Toggle X-Ray",
+  "text.toggle_xray.enabled": "X-Ray enabled",
+  "text.toggle_xray.disabled": "X-Ray disabled"
+}

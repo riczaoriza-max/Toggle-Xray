@@ -1,0 +1,3 @@
+tasks.register('remapJar') {
+    dependsOn(':fabric:remapJar')
+}

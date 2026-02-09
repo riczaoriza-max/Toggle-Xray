@@ -1,0 +1,26 @@
+{
+  "schemaVersion": 1,
+  "id": "toggle_xray",
+  "version": "${version}",
+  "name": "Toggle X-Ray",
+  "description": "Instantly toggle X-Ray vision on/off with a single keybind.",
+  "authors": [
+    "kotoritos"
+  ],
+  "contact": {
+    "homepage": "https://www.curseforge.com/members/kotoritos/projects",
+    "sources": ""
+  },
+  "license": "All Rights Reserved",
+  "environment": "client",
+  "entrypoints": {
+    "client": [
+      "com.kotoritos.togglexray.ToggleXrayClient"
+    ]
+  },
+  "depends": {
+    "fabricloader": ">=0.14.22",
+    "fabric": "*",
+    "minecraft": "1.20.1"
+  }
+}
