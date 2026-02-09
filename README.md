@@ -46,13 +46,13 @@ When X-Ray mode is enabled, most common blocks become transparent or hidden, all
 
 ## Build
 
-This project is a single-module Gradle build (no `:fabric` subproject). Use the root tasks:
+This project includes a `fabric` subproject for the mod build. Use the Fabric task path:
 
 ```bash
-gradle --no-daemon remapJar
+gradle --no-daemon :fabric:remapJar
 ```
 
-The output JAR will be under `build/libs`.
+The output JAR will be under `fabric/build/libs`.
 
 ## License
 
