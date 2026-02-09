@@ -44,6 +44,16 @@ When X-Ray mode is enabled, most common blocks become transparent or hidden, all
 - Requires **Fabric Loader** and **Fabric API**
 - **Client-side only**
 
+## Build
+
+This project is a single-module Gradle build (no `:fabric` subproject). Use the root tasks:
+
+```bash
+gradle --no-daemon remapJar
+```
+
+The output JAR will be under `build/libs`.
+
 ## License
 
 All rights reserved. Redistribution or modification requires explicit written permission from the author.
